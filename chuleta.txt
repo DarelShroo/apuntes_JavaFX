@@ -1,0 +1,16 @@
+A tener en cuenta en la creación de vistas
+
+- Se crea en el constructor en el controlador con la llamada al fxml
+- Se devuelve la vista con un getter
+- Si es root el controlador no puede tener un fx:id
+- Cuando se crea la nueva escena se usa primaryStage.setScene(new Scene(controller.getView()))
+
+A tener en cuenta a la hora de realizar bindeos
+
+ - Se buscará la property del objeto
+ - Se utiliza con valores observables
+
+A tener en cuenta a la hora de añadir Listeners
+
+ - Se buscará la property del objeto
+ - Se utiliza con valores observables
